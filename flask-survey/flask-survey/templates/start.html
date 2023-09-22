@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Take our Survey{% endblock %}
+{% block heading %}Your Feedback is appreciated{% endblock %}
+
+{% block content %}
+    <p>{{ survey.instructions }}</p>
+    <a href="/questions/0">Start Survey</a>
+{% endblock %}
